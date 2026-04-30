@@ -1,7 +1,7 @@
 class Secretctl < Formula
   desc "Agent-first single-binary secret manager for macOS"
   homepage "https://github.com/agent-rt/secretctl"
-  version "0.1.0"
+  version "0.1.1"
   license "Apache-2.0"
 
   depends_on :macos
@@ -9,8 +9,8 @@ class Secretctl < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/agent-rt/homebrew-tap/releases/download/secretctl-v0.1.0/secretctl-0.1.0-aarch64-apple-darwin.tar.gz"
-      sha256 "bf15987df43842c599539f2dd52915e043c8e307eb8879ad45d8cfa6a18d22e5"
+      url "https://github.com/agent-rt/homebrew-tap/releases/download/secretctl-v0.1.1/secretctl-0.1.1-aarch64-apple-darwin.tar.gz"
+      sha256 "d3614745dfff87c7a098a2da34a8cdc23bcc4e6c7612ffe134b27b51792b3c26"
     end
   end
 
