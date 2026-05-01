@@ -1,7 +1,7 @@
 class Llmctl < Formula
   desc "Fast, pipe-friendly CLI for testing OpenAI-compatible and Anthropic LLM endpoints"
   homepage "https://github.com/agent-rt/llmctl"
-  version "0.3.0"
+  version "0.3.1"
   license "Apache-2.0"
 
   depends_on :macos
@@ -9,8 +9,8 @@ class Llmctl < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/agent-rt/homebrew-tap/releases/download/llmctl-v0.3.0/llmctl-0.3.0-aarch64-apple-darwin.tar.gz"
-      sha256 "feb1b755a72b01da6639d76e6cd64daa126a66b5cc97670c89bd578e8417c179"
+      url "https://github.com/agent-rt/homebrew-tap/releases/download/llmctl-v0.3.1/llmctl-0.3.1-aarch64-apple-darwin.tar.gz"
+      sha256 "4e569c251573dc2a4d637332e65a364cc59f5439c11ea425fb030d2de94097b7"
     end
   end
 
