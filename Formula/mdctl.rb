@@ -10,7 +10,7 @@ class Mdctl < Formula
   on_macos do
     on_arm do
       url "https://github.com/agent-rt/homebrew-tap/releases/download/mdctl-v0.1.0/mdctl-0.1.0-aarch64-apple-darwin.tar.gz"
-      sha256 "334d56370042031d1a96886050068f8da4dac28337b86747ae257d68bfc1932a"
+      sha256 "f7d5683f8bc6be52e5e7ec1878601c1c77c477ac0a10070cc031bf4c77cfa463"
     end
   end
 
