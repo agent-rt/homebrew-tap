@@ -1,7 +1,7 @@
 class Mdctl < Formula
   desc "macOS-native CLI converting PDF / HTML / Office / images to Markdown"
   homepage "https://github.com/agent-rt/mdctl"
-  version "0.1.0"
+  version "0.1.1"
   license "MIT"
 
   depends_on :macos
@@ -9,8 +9,8 @@ class Mdctl < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/agent-rt/homebrew-tap/releases/download/mdctl-v0.1.0/mdctl-0.1.0-aarch64-apple-darwin.tar.gz"
-      sha256 "81e018af857a822f3216df53055a2f1b4ce64223c095e874dee9934846acd31b"
+      url "https://github.com/agent-rt/homebrew-tap/releases/download/mdctl-v0.1.1/mdctl-0.1.1-aarch64-apple-darwin.tar.gz"
+      sha256 "2ae5732135a8900551faa32a29db533fe8defed0822b692a3e879859de4cb2dc"
     end
   end
 
