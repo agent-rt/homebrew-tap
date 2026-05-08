@@ -10,14 +10,12 @@ class Mdctl < Formula
   on_macos do
     on_arm do
       url "https://github.com/agent-rt/homebrew-tap/releases/download/mdctl-v0.1.0/mdctl-0.1.0-aarch64-apple-darwin.tar.gz"
-      sha256 "f7d5683f8bc6be52e5e7ec1878601c1c77c477ac0a10070cc031bf4c77cfa463"
+      sha256 "81e018af857a822f3216df53055a2f1b4ce64223c095e874dee9934846acd31b"
     end
   end
 
   def install
-    bin.install "bin/mdctl"
-    lib.install "lib/libmdctl.dylib"
-    include.install "include/mdctl.h"
+    bin.install "mdctl"
   end
 
   test do
