@@ -1,8 +1,8 @@
 cask "corelet" do
-  version "0.0.1"
-  sha256 "81748dc66991abf30a983781e220f01eda6904cf92ba9b7ba5929efaff5c545a"
+  version "0.0.2"
+  sha256 "cee6a4760087ec14a3facb5b56a07700370ef6e28b513b430ea6d9e27cf65cc0"
 
-  url "https://github.com/agent-rt/homebrew-tap/releases/download/corelet-v0.0.1/corelet-0.0.1-aarch64-apple-darwin.tar.gz"
+  url "https://github.com/agent-rt/homebrew-tap/releases/download/corelet-v0.0.2/corelet-0.0.2-aarch64-apple-darwin.tar.gz"
   name "Corelet"
   desc "Agent-first miniapp runtime (macOS host + CLI)"
   homepage "https://github.com/agent-rt/corelet"
