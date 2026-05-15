@@ -1,6 +1,6 @@
 cask "corelet" do
   version "0.0.1"
-  sha256 "e0c66aac9e29bedce2a7f49c3d76820fde60b9a6bda34b0680786dea3998b51d"
+  sha256 "81748dc66991abf30a983781e220f01eda6904cf92ba9b7ba5929efaff5c545a"
 
   url "https://github.com/agent-rt/homebrew-tap/releases/download/corelet-v0.0.1/corelet-0.0.1-aarch64-apple-darwin.tar.gz"
   name "Corelet"
