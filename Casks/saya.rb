@@ -1,8 +1,8 @@
 cask "saya" do
-  version "0.0.1"
-  sha256 "aabe0c4ef0c5d920e235dc2c806ce840bf6be8267a47725bb09920a26d21f5f0"
+  version "0.0.2"
+  sha256 "257f99d672407eed28a1a76c9b57acb5f509045aa647dde44eb3d2f3a2ce9749"
 
-  url "https://github.com/agent-rt/homebrew-tap/releases/download/saya-v0.0.1/Saya-v0.0.1-arm64.dmg"
+  url "https://github.com/agent-rt/homebrew-tap/releases/download/saya-v0.0.2/Saya-v0.0.2-arm64.dmg"
   name "Saya"
   desc "Local AI launcher with semantic clipboard history"
   homepage "https://github.com/agent-rt/saya"
