@@ -1,6 +1,6 @@
 cask "aglet" do
   version "0.2.0"
-  sha256 "409898583e3a01153111bc823a74aa083d9da528c403b0f1d9bbf428a181870e"
+  sha256 "a2ddf9f5b0db3b7b4ad41ef2c0ddd1f5cd36e284aa3b44bf8d085459aab533ef"
 
   url "https://github.com/agent-rt/homebrew-tap/releases/download/aglet-v0.2.0/Aglet.app-0.2.0-aarch64-apple-darwin.tar.gz"
   name "Aglet"

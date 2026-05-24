@@ -4,15 +4,15 @@ class Aglet < Formula
   homepage "https://github.com/agent-rt/aglet"
   url "https://github.com/agent-rt/homebrew-tap/releases/download/aglet-v0.2.0/aglet-cli-0.2.0-aarch64-apple-darwin.tar.gz"
   version "0.2.0"
-  sha256 "ce637483cc4174c1b396f8cdd7d2d7b7a9f797c34bef36e019e31f86a8a9c19c"
+  sha256 "beffe944d4ec9e22bae3762af60e246e00178465cae5c1a835f49756394993c2"
   license "MIT"
 
   depends_on :macos
   depends_on arch: :arm64
 
   def install
-    # Tarball has `bin/aglet` at root; Homebrew auto-cds into the single
-    # top-level dir, so we're already in `bin/` here.
+    # Tarball has  at root; Homebrew auto-cds into the
+    # single top-level dir, so we're already in  here.
     bin.install "aglet"
   end
 
