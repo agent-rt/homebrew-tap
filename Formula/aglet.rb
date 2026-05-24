@@ -11,7 +11,9 @@ class Aglet < Formula
   depends_on arch: :arm64
 
   def install
-    bin.install "bin/aglet"
+    # Tarball has `bin/aglet` at root; Homebrew auto-cds into the single
+    # top-level dir, so we're already in `bin/` here.
+    bin.install "aglet"
   end
 
   test do
