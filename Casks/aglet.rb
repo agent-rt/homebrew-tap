@@ -1,8 +1,8 @@
 cask "aglet" do
-  version "0.3.3"
-  sha256 "b58f8da2e7e7e8df6fc62693a0370e300343047f3c2035900e999ebc2eda03e3"
+  version "0.3.4"
+  sha256 "118c0b23b61c8484692f396e692ef27bc74968b2b574608b24cda9cb8cac228d"
 
-  url "https://github.com/agent-rt/homebrew-tap/releases/download/aglet-v0.3.3/Aglet.app-0.3.3-aarch64-apple-darwin.tar.gz"
+  url "https://github.com/agent-rt/homebrew-tap/releases/download/aglet-v0.3.4/Aglet.app-0.3.4-aarch64-apple-darwin.tar.gz"
   name "Aglet"
   desc "Agent-first aglet runtime (macOS GUI host)"
   homepage "https://github.com/agent-rt/aglet"
