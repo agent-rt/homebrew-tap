@@ -1,17 +1,17 @@
 class Mailctl < Formula
   desc "Agent-first command-line email client for Gmail and Outlook/Hotmail"
   homepage "https://github.com/agent-rt/mailctl"
-  version "0.1.2"
+  version "0.1.3"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/agent-rt/homebrew-tap/releases/download/mailctl-v0.1.2/mailctl-0.1.2-aarch64-apple-darwin.tar.gz"
-      sha256 "54040d193a204e6aa0d2f9f94628a0f5cc6a2027a7f28d819107ffa7698c420d"
+      url "https://github.com/agent-rt/homebrew-tap/releases/download/mailctl-v0.1.3/mailctl-0.1.3-aarch64-apple-darwin.tar.gz"
+      sha256 "e1fd2f3f0e24ab58cf2ffc33123f74da1b46f509ad09b9e511aebff9590742dc"
     end
     on_intel do
-      url "https://github.com/agent-rt/homebrew-tap/releases/download/mailctl-v0.1.2/mailctl-0.1.2-x86_64-apple-darwin.tar.gz"
-      sha256 "fc835f85a1b816ac98b71b7deb3a53957c54ed1190791d37d1f2dc4877f58a39"
+      url "https://github.com/agent-rt/homebrew-tap/releases/download/mailctl-v0.1.3/mailctl-0.1.3-x86_64-apple-darwin.tar.gz"
+      sha256 "b548aa349000a9704ed2ca479366baedb6cd64a3599ecd357559c4b2e19a7624"
     end
   end
 
