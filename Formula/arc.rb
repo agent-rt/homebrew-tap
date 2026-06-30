@@ -1,17 +1,17 @@
 class Arc < Formula
   desc "Remote control for Agents — drive another machine over an encrypted relay"
   homepage "https://github.com/agent-rt/arc"
-  version "0.3.0"
+  version "0.4.0"
   license "MIT OR Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/agent-rt/homebrew-tap/releases/download/arc-v0.3.0/arc-0.3.0-aarch64-apple-darwin.tar.gz"
-      sha256 "2396b85d50d0cb7db2bbb310e2c87946f6095469bcc78a0eebb6495e8da5a6da"
+      url "https://github.com/agent-rt/homebrew-tap/releases/download/arc-v0.4.0/arc-0.4.0-aarch64-apple-darwin.tar.gz"
+      sha256 "5907d5769c54bd8275baafeffb3bdbc449b96d0c59dd52275bff4cf6e9e33511"
     end
     on_intel do
-      url "https://github.com/agent-rt/homebrew-tap/releases/download/arc-v0.3.0/arc-0.3.0-x86_64-apple-darwin.tar.gz"
-      sha256 "eec79707f2813c9953fe4a7a4785eabe3b93e7c1b07b4305e49e538f7f18b9de"
+      url "https://github.com/agent-rt/homebrew-tap/releases/download/arc-v0.4.0/arc-0.4.0-x86_64-apple-darwin.tar.gz"
+      sha256 "52b8b4b64a3776affb0d3722af20873a2c62121c820fbc5e48a1c112f2ebfd79"
     end
   end
 
