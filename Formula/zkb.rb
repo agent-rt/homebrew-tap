@@ -1,7 +1,7 @@
 class Zkb < Formula
   desc "Local knowledge base and agent memory over your own markdown and csv"
   homepage "https://github.com/agent-rt/zkb"
-  version "0.0.12"
+  version "0.0.13"
   license "Apache-2.0"
 
   depends_on :macos
@@ -9,8 +9,8 @@ class Zkb < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/agent-rt/homebrew-tap/releases/download/zkb-v0.0.12/zkb-0.0.12-aarch64-apple-darwin.tar.gz"
-      sha256 "fea6e85211e64defc8536ca25e68e08c28672cc64911c613d88c8ad9bcab36b7"
+      url "https://github.com/agent-rt/homebrew-tap/releases/download/zkb-v0.0.13/zkb-0.0.13-aarch64-apple-darwin.tar.gz"
+      sha256 "37d10d05210021e31f3a0203a307fdb0197264f00b46d222e3b9160bbc9c7e30"
     end
   end
 
